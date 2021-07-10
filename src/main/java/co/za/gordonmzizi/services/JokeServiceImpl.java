@@ -13,6 +13,9 @@ public class JokeServiceImpl  implements JokeService{
 
     @Override
     public String getJoke() {
-        return chuckNorrisQuotes.getRandomQuote();
+
+        String ss = chuckNorrisQuotes.getRandomQuote();
+        System.out.println(ss);
+        return  ss;
     }
 }

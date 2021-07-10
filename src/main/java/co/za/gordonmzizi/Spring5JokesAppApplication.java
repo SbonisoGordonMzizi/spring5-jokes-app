@@ -1,4 +1,4 @@
-package co.za.gordonmzizi.spring5jokesapp;
+package co.za.gordonmzizi;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -7,7 +7,9 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class Spring5JokesAppApplication {
 
     public static void main(String[] args) {
+
         SpringApplication.run(Spring5JokesAppApplication.class, args);
+        System.out.println("I am running now");
     }
 
 }

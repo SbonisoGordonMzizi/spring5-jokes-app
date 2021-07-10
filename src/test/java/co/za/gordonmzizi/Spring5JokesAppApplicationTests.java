@@ -1,4 +1,4 @@
-package co.za.gordonmzizi.spring5jokesapp;
+package co.za.gordonmzizi;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
