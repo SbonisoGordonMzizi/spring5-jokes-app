@@ -9,7 +9,6 @@ public class Spring5JokesAppApplication {
     public static void main(String[] args) {
 
         SpringApplication.run(Spring5JokesAppApplication.class, args);
-        System.out.println("I am running now");
     }
 
 }
